@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- 1.nav -->
+    <nav class="nav-top" style="font-size:1.2rem ;">
+        <div class="container">
+            <div class="row justify-content-between ">
+                <div class="col-auto align-self-center">
+                    <span class="me-4">kmd@kmd.com</span>
+                    <i class="bi bi-telephone"></i>
+                    <span>+98 (911) 888 6644</span>
+                    <i class="bi bi-envelope"></i>
+                </div>
+                <div class="col-auto">
+                    <a class="mes-2 aa" href=""><i class="bi bi-telegram"></i></a>
+                    <a class="mes-2 aa" href=""><i class="bi bi-facebook"></i></a>
+                    <a class="mes-2 aa" href=""><i class="bi bi-messenger"></i></a>
+                    <a class="mes-2 aa" href=""><i class="bi bi-whatsapp"></i></a>
+                    <a class="mes-2 aa" href=""><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- 2.nav -->
+    <nav class="navbar navbar-expand-lg bg-light nav2 shadow sticky-top">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">KMD<span style="color:#e63946;">.</span>ME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item a1a ">
+                        <a class="nav-link bbb" href="#carouselExampleDark">خانه</a>
+                    </li>
+                    <li class="nav-item a1a ">
+                        <a class="nav-link bbb" href="#about">درباره ما</a>
+                    </li>
+                    <li class="nav-item a1a ">
+                        <a class="nav-link bbb" href="#ser">آمار</a>
+                    </li>
+                    <li class="nav-item a1a ">
+                        <a class="nav-link bbb" href="#serv">سرویس</a>
+                    </li>
+                    <li class="nav-item a1a ">
+                        <a class="nav-link bbb" href="#team">تیم</a>
+                    </li>
+                </ul>
+                <a id="va" class="btn btn-brand me-lg-2" href="" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">تماس با ما</a>
+            </div>
+        </div>
+    </nav>
+    <!-- اسلاید -->
+    <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active az" data-bs-interval="20000">
+                <img src="./img/pexels-fauxels-3182812.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h6 class="text-white text-uppercase" style="text-shadow:2px 3px 5px black ;font-size: 1.5rem;">
+                        بهترین طراحی ها</h6>
+                    <h1 class="display-3 my-4 h66">با ظرافت کامل<br />و تجربه بسیار</h1>
+                    <a href="#" class="btn btn-outline-light ms-3" style="font-size:1.2rem ;">کارهای ما</a>
+                    <a href="#" class="btn btn-outline-warning" style="font-size:1.2rem ;">شروع</a>
+                </div>
+            </div>
+            <div class="carousel-item az" data-bs-interval="2000">
+                <img src="./img/pexels-fauxels-3184299.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h6 class="text-white text-uppercase" style="text-shadow:2px 3px 5px black ;font-size: 1.5rem;">
+                        بهترین طراحی ها</h6>
+                    <h1 class="display-3 my-4 h66">با ظرافت کامل<br />و تجربه بسیار</h1>
+                    <a href="#" class="btn btn-outline-light ms-3" style="font-size:1.2rem ;">کارهای ما</a>
+                    <a href="#" class="btn btn-outline-warning" style="font-size:1.2rem ;">شروع</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- درباره ما -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="row">
+                        <div class="col box">
+                            <img src="./img/Marketing_Isometric.png" alt="" style="width: 188px;">
+                            <div>
+                                <h3>دیجیتال مارکتینگ</h3>
+                                <p>این یک حقیقت است که بازدید کننده با محتوای قابل خواندن حواسش پرت میشود</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col box">
+                            <img src="./img/Currency_Isometric.png" alt="" style="width: 188px;">
+                            <div>
+                                <h3>بازاریابی</h3>
+                                <p>این یک حقیقت است که بازدید کننده با محتوای قابل خواندن حواسش پرت میشود</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col box">
+                            <img src="./img/PR_Flatline.png" alt="" style="width: 188px;">
+                            <div>
+                                <h3>کسب و کار ایمیل</h3>
+                                <p>این یک حقیقت است که بازدید کننده با محتوای قابل خواندن حواسش پرت میشود</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5  me-5">
+                    <img src="./img/Computer display_Isometric.png" alt="" style="width:500px ;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- آمار -->
+    <section id="ser">
+        <div class="container-fluid" id="am">
+            <h1 id="h11" class="text-center mb-5">با کمک شما</h1>
+            <div class="row ms-sm-5 ms-lg-0">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2 col-sm-6 text-center mb-3">
+                    <h1
+                        style="font-weight:bolder;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                        666K</h1>
+                    <p
+                        style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        YouTube Subscribers</p>
+                </div>
+                <div class="col-lg-2 col-sm-6 text-center">
+                    <h1
+                        style="font-weight:bolder;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                        1.6M</h1>
+                    <p
+                        style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        Telegram Subscribers</p>
+                </div>
+                <div class="col-lg-2 col-sm-6 text-center">
+                    <h1
+                        style="font-weight:bolder;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                        264K</h1>
+                    <p
+                        style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        Total Downloads</p>
+                </div>
+                <div class="col-lg-2 col-sm-6 text-center">
+                    <h1
+                        style="font-weight:bolder;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                        88M</h1>
+                    <p
+                        style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        Lines of code</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- سرویس -->
+    <section id="serv">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-5 text-center">
+                    <h3 style="color:#e63946 ;">سرویس های ما</h3>
+                    <h3>ما در اینجا چه کارهای انجام میدهیم؟</h3>
+                    <p style="color:rgba(0, 0, 0, 0.705) ;">این یک نوشته آزمایشی است که به طراحان و برنامه نویسان کمک
+                        میکند تا این عزیزان با بهره گیری از این
+                        نوشته تستی و آزمایشی بتوانند نمونه تکمیل شده از پروژه و طرح خودشان را به کارفرما نمایش دهند.</p>
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-md-4 my-4 col-sm-6">
+                    <div class="card text-center shadow py-4">
+                        <div class="card-body">
+                            <img src="./img/Marketing_Isometric.png" style="width: 168px;">
+                            <h5 class="card-title my-4">دیجیتال مارکتینگ</h5>
+                            <p class="card-text" style="color:rgba(0, 0, 0, 0.651) ;font-size: large;"> این یک نوشته
+                                آزمایشی است که به طراحان و برنامه نویسان کمک میکند تا این عزیزان با بهره گیری از این
+                                نوشته تستی و آزمایشی بتوانند</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 col-sm-6">
+                    <div class="card text-center shadow py-4">
+                        <div class="card-body">
+                            <img src="./img/Designer _Flatline.png" style="width: 168px;">
+                            <h5 class="card-title my-4">طراحی لوگو</h5>
+                            <p class="card-text" style="color:rgba(0, 0, 0, 0.651) ;font-size: large;"> این یک نوشته
+                                آزمایشی است که به طراحان و برنامه نویسان کمک میکند تا این عزیزان با بهره گیری از این
+                                نوشته تستی و آزمایشی بتوانند</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 col-sm-6">
+                    <div class="card text-center shadow py-4">
+                        <div class="card-body">
+                            <img src="./img/Currency_Isometric.png" style="width: 168px;">
+                            <h5 class="card-title my-4">بازاریابی</h5>
+                            <p class="card-text" style="color:rgba(0, 0, 0, 0.651) ;font-size: large;"> این یک نوشته
+                                آزمایشی است که به طراحان و برنامه نویسان کمک میکند تا این عزیزان با بهره گیری از این
+                                نوشته تستی و آزمایشی بتوانند</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 col-sm-6">
+                    <div class="card text-center shadow py-4">
+                        <div class="card-body">
+                            <img src="./img/Video tutorial _Isometric.png" style="width: 168px;">
+                            <h5 class="card-title my-4">ویدیوگرافی</h5>
+                            <p class="card-text" style="color:rgba(0, 0, 0, 0.651) ;font-size: large;"> این یک نوشته
+                                آزمایشی است که به طراحان و برنامه نویسان کمک میکند تا این عزیزان با بهره گیری از این
+                                نوشته تستی و آزمایشی بتوانند</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 col-sm-6">
+                    <div class="card text-center shadow py-4">
+                        <div class="card-body">
+                            <img src="./img/Security_Outline.png" style="width: 168px;">
+                            <h5 class="card-title my-4">امنیت</h5>
+                            <p class="card-text" style="color:rgba(0, 0, 0, 0.651) ;font-size: large;"> این یک نوشته
+                                آزمایشی است که به طراحان و برنامه نویسان کمک میکند تا این عزیزان با بهره گیری از این
+                                نوشته تستی و آزمایشی بتوانند</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 col-sm-6">
+                    <div class="card text-center shadow py-4">
+                        <div class="card-body">
+                            <img src="./img/Brainstorming session _Isometric.png" style="width: 168px;">
+                            <h5 class="card-title my-4">ایده</h5>
+                            <p class="card-text" style="color:rgba(0, 0, 0, 0.651) ;font-size: large;"> این یک نوشته
+                                آزمایشی است که به طراحان و برنامه نویسان کمک میکند تا این عزیزان با بهره گیری از این
+                                نوشته تستی و آزمایشی بتوانند</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- اعضای تیم -->
+    <section id="team">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-5 text-center">
+                    <h3 style="color:#e63946 ;">تیم</h3>
+                    <h3>اعضای تیم</h3>
+                    <p style="color:rgba(0, 0, 0, 0.705) ;">این یک نوشته آزمایشی است که به طراحان و برنامه نویسان کمک
+                        میکند تا این عزیزان با بهره گیری از این
+                        نوشته تستی و آزمایشی بتوانند نمونه تکمیل شده از پروژه و طرح خودشان را به کارفرما نمایش دهند.</p>
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-md-4 my-4">
+                    <div class="member text-center py-4">
+                        <div>
+                            <div class="image">
+                                <img src="./img/pexels-andrea-piacquadio-3760263.jpg" class="photo"
+                                    style="width: 416px; height: 388px;">
+                                <div class="ej">
+                                    <a class="mes-2 aa" href=""><i class="bi bi-telegram"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-facebook"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-messenger"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-whatsapp"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                            <h5 class="card-title my-4">Arshia Esalat</h5>
+                            <p class="card-text" style="color:rgba(0, 0, 0, 0.651) ;font-size: large;">Data Scientist
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4">
+                    <div class="member text-center py-4">
+                        <div>
+                            <div class="image">
+                                <img src="./img/pexels-mikhail-nilov-6592661.jpg" class="photo"
+                                    style="width: 416px; height: 388px;">
+                                <div class="ej">
+                                    <a class="mes-2 aa" href=""><i class="bi bi-telegram"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-facebook"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-messenger"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-whatsapp"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                            <h5 class="card-title my-4">Mohammad Karimi</h5>
+                            <p class="card-text" style="color:rgba(0, 0, 0, 0.651) ;font-size: large;">Software
+                                Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 ">
+                    <div class="member text-center py-4">
+                        <div>
+                            <div class="image">
+                                <img src="./img/pexels-moose-photos-1586996.jpg" class="photo"
+                                    style="width: 416px; height: 388px;">
+                                <div class="ej">
+                                    <a class="mes-2 aa" href=""><i class="bi bi-telegram"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-facebook"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-messenger"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-whatsapp"></i></a>
+                                    <a class="mes-2 aa" href=""><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                            <h5 class="card-title my-4">Reza Babaeie</h5>
+                            <p class="card-text" style="color:rgba(0, 0, 0, 0.651) ;font-size: large;">Marketing
+                                Coordinator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- فوتر-->
+    <footer>
+        <div class="container">
+            <div class="row text-center">
+                <div class="footer-top mt-5">
+                    <a class="navbar-brand logo" href="#">KMD<span style="color:#e63946;">.</span>ME</a>
+                    <p class="mt-3">Contrary to popular belief,<br> Lorem Ipsum is not simply random text. It has roots
+                        in a piece of
+                        classical Latin literature from</p>
+                    <div class="shabake mt-3 mb-5">
+                        <a class="mes-2 aa" href=""><i class="bi bi-telegram"></i></a>
+                        <a class="mes-2 aa" href=""><i class="bi bi-facebook"></i></a>
+                        <a class="mes-2 aa" href=""><i class="bi bi-messenger"></i></a>
+                        <a class="mes-2 aa" href=""><i class="bi bi-whatsapp"></i></a>
+                        <a class="mes-2 aa" href=""><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <hr style="color:white ;">
+                <div class="footer-bottom">
+                    <p>Copyright@2020. All rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="container-fluid">
+                        <div class="row gy-4">
+                            <div class="col-lg-5 col-sm-12 bg-cover"
+                                style="background-image: url(./img/Sending\ emails_Outline.png);background-size: cover;">
+                            </div>
+                            <div class="col-lg-7">
+                                <form class="p-lg-5 col-12 row g-3">
+                                    <div>
+                                        <h1>تماس با ما</h1>
+                                        <p>پیشنهاد و انتقاداتتون را برای ما در جهت بهبود یافتن سایت بفرستید. در اسرع وقت تیم ما جواب میدهد</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="userName" class="form-label">نام</label>
+                                        <input type="text" class="form-control" placeholder="محمد" id="userName"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="userName" class="form-label">خانوادگی</label>
+                                        <input type="text" class="form-control" placeholder="بارانی" id="userName"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="userName" class="form-label">ایمیل</label>
+                                        <input type="email" class="form-control" placeholder="mohammad@gmeil.com"
+                                            id="userName" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="exampleInputEmail1" class="form-label">پیام را وارد کنید</label>
+                                        <textarea name="" placeholder="محل وارد کردن نظر انتقاد و پیشنهاد"
+                                            class="form-control" id="" rows="4"></textarea>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <a type="submit" class="btn btn-brand" href="">ارسال پیام</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

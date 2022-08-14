@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Rubik+Marker+Hatch&display=swap');
+@font-face {
+    font-family: 'Yekan';
+    src: url('./Yekan-Font-master/Yekan.eot');
+    /* IE9 Compat Modes */
+    src: url('./Yekan-Font-master/Yekan.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./Yekan-Font-master/Yekan.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('./Yekan-Font-master/Yekan.woff') format('woff'),
+        /* Modern Browsers */
+        url('./Yekan-Font-master/Yekan.otf') format('opentype'),
+        /* Open Type Font */
+        url('./Yekan-Font-master/Yekan.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+        font-display: auto;
+}
+body{
+    font-family: "yekan";
+}
+.nav-top{
+    background-color: #e63946;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.aa{
+    height: 34px;
+    width: 34px;
+    background-color: rgba(240, 248, 255, 0.187);
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 2px;
+}
+.aa:hover{
+    background-color: rgba(0, 0, 0, 0.397);
+    color: #A8DADC
+}
+.logo{
+    font-family: 'DynaPuff', cursive;
+    font-size: 2rem;
+}
+.nav2{
+    font-size: 1.5rem;
+}
+#va{
+    font-size: 1.8rem;
+}
+.btn-brand{
+    background-color: #fce2df;
+    border-color: #e6394762;
+}
+.bbb:hover{
+    color: #e63946;
+}
+.a1a:active{
+    font-size: 1.7rem;
+    color: #e63946;
+}
+.h66{
+    color: #A8DADC;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.box{
+    display: flex;
+    align-items:center;
+}
+.box div{
+    margin-right: 10px;
+}
+#am{
+    background-color: #e639478f;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 2px 3px 5px black;
+}
+#h11{
+    position: relative;
+    top: 10px;
+}
+.member .ej{
+    position: relative;
+    top: -40px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+.member .aa{
+    background-color: #e6394781;
+}
+.member h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: -40px;
+}
+.member p{
+    position: relative;
+    top: -60px;
+}
+.image:hover .ej{
+    opacity: 1;
+}
+footer{
+    color: white;
+    background: url(./img/pexels-fauxels-3184424\ copy.jpg);
+    background-size: cover;
+}
+footer .aa{
+    height: 44px;
+    width: 48px;
+    background-color: rgba(110, 183, 247, 0.187);
+    text-align: center;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 2px;
+    font-size: 1.8rem;
+}
+footer .logo{
+    font-size: 4rem;
+    color: black;
+}
